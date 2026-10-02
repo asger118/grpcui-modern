@@ -1,0 +1,15 @@
+# Only sources are needed; dependencies and build output are produced in-image.
+**/node_modules
+frontend/dist
+**/.git
+**/*.log
+.vscode
+.idea
+
+# Parts of the upstream checkout that the build doesn't use
+grpcui-old/.circleci
+grpcui-old/.github
+grpcui-old/cmd
+grpcui-old/doc-images
+grpcui-old/releasing
+grpcui-old/testing
